@@ -11,7 +11,8 @@ package com.forpgm.mathutil.core;
 public class MathUtility {
 
     public static long getFactorial(int n) {
-        long product = 10;// tích kết quả phép nhân
+        long product = 1;// tích kết quả phép nhân
+        //update code again to see green forever
         if (n < 0 || n > 20) {
             throw new IllegalArgumentException("Invalid n. n must be between 0 - 20");
 
