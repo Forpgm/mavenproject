@@ -11,7 +11,13 @@ import javax.swing.JOptionPane;
  *
  * @author DELL
  */
+
+
 public class MathUtil {
+
+    //modify code directly in server
+    public void sayHelloFromServer(){}
+
     //hàm là static vì tính xong tear về, không nhớ nhung gì cả
     //thường các thư viện dùng chung có tính toán số liệu ta hay dùng static
 
