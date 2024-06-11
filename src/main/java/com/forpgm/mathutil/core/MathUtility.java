@@ -32,3 +32,13 @@ public class MathUtility {
 //n! = n.(n-1)! | công thức đệ qui - recursion
 
 //búp bê người nga
+
+//nếu ta xài CI trong project, thì lợi điểm là mỗi lần sửa code
+//dân dev không cần mất sức test lại code của mình đúng/sai
+//do cơ chế tự động run test case của CI lo giúp
+
+//toàn bộ việc test lại code được tự động hóa, PM, dev chỉ cần nhìn vào
+//màu xanh là đủ, biể rằng việc sửa code ngon, vì pass được bộ test
+
+//việc test lại hàm đã từng test => regression testing
+//                               => kiểm thử hồi qui
